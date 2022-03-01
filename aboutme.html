@@ -6,14 +6,178 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <style>
+        h3 {
+            color: #828282;
+            font-size: 36px;
+        }
+
+        p i {
+            color: #828282;
+        }
+
+        .back-ground-black {
+            background-color: black;
+        }
+
+        .back-ground-black a {
+            color: white;
+        }
+        li{
+            list-style-type: none;
+        }
+    </style>
+     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+    
 </head>
 
 <body>
-    <h1>About Me</h1>
-    <p>I am a 2 years experience front end developer. <br>
-        Specialized in <i>HTML, CSS, JS and React</i>, I have always tried to <br>
-        finish my tasks as soon as I can while retaining
-        high quality.</p>
+
+
+    <nav class="back-ground-black text-align-right padding-20">
+        <a href="contact.html" target="_blank" class="text-decoration-none">Contact</a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <form style="display: inline-block;">
+            <select name="share" id="share" class="back-ground-black boder-none color-white">
+                <option value="Share">Share</option>
+            </select>
+        </form>
+    </nav>
+    <main class="flex-container">
+        <nav>
+            <div class="color-black text-align-center margin-top-48 padding-10-60">
+                <img src="img/ellipse1.png" alt="project-image">
+                <p><b>My Name</b> </p>
+                <a href="mailto:myemail@gmail.com" class="color-828282" class="pos-rel">myemail@gmail.com <img src="img/group8.svg" class="pos-asb"></a>
+                <br>
+            </div>
+            <div>
+                <a href="index.html" class="boder-5-solid-left"> <img src="img/vector1.png">My Portfolio</a> <br>
+                <a href="aboutme.html" class="color-828282"><img src="img/vector2.png"> About me</a>
+            </div>
+        </nav>
+        <section>
+            <header>
+                <h1>About <span style="color:#EB5757 ;">Me</span></h1>
+                <p>I am a 2 years experience front end developer. <br>
+                    Specialized in <i style="color: black;">HTML, CSS, JS and React</i> , I have always tried to <br>
+                    finish my tasks as soon as I can while retaining
+                    high quality.</p>
+            </header>
+            <section>
+                <div class="flex-container justify-content-between w-1200">
+                    <div>
+                        <p class="font-size-36 color-silver">#skills</p>
+                        <table class="back-ground-silver">
+                            <th>
+                            <td>SKILL</td>
+                            <td>COMPETENCY</td>
+                            </th>
+                            <tr>
+                                <td><img src="img/html-5.svg" alt="html"> HTML </td>
+                                <td><img src="img/rectangle5.svg" alt="rectangle"> 90%</td>
+                            </tr>
+                            <tr>
+                                <td><img src="img/css.svg" alt="css">CSS</td>
+                                <td> <img src="img/rectangle6.svg" alt=""> 100%</td>
+                            </tr>
+                            <tr>
+                                <td><img src="img/group1406.svg" alt="js">JS</td>
+                                <td> <img src="img/rectangle7.png" alt=""> 85%</td>
+                            </tr>
+                            <tr>
+                                <td><img src="img/group2.svg" alt="react">REACT</td>
+                                <td><img src="img/rectangle8.png" alt=""> 75%</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div>
+                        <p class="font-size-36 color-silver">#languages</p>
+                        <table class="back-ground-silver">
+                            <th>
+                            <td>LANGUAGE</td>
+                            <td>COMPETENCY</td>
+                            </th>
+                            <tr>
+                                <td><img src="img/uk.png" alt="English"> English </td>
+                                <td><img src="img/rectangle14.png" alt="rectangle"> 90%</td>
+                            </tr>
+                            <tr>
+                                <td><img src="img/vietnam.svg" alt="Vietnamese">Vietnamese</td>
+                                <td> <img src="img/rectangle16.png" alt=""> 100%</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <p class="font-size-36 color-silver">#most-favorited-songs</p>
+                <div class="flex-container">
+                    <div>
+                        <p class="font-weight-bold margin-30">Fearless
+                            <audio controls>
+                                <source src="media/come_get_your_love.mp3" type="audio/mpeg">
+                            </audio>
+                        </p>
+                    </div>
+                    <div>
+                        <p class="font-weight-bold margin-30">Spring
+                            <audio controls>
+                                <source src="media/come_get_your_love.mp3" type="audio/mpeg">
+                            </audio>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="margin-10">
+                <p class="font-size-36 color-silver">#most-favorited-videos</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/C1xs-gGylIk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen class="margin-10"></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/C1xs-gGylIk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen class="margin-10"></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/C1xs-gGylIk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen class="margin-10"></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/C1xs-gGylIk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen class="margin-10"></iframe>
+            </section>
+            <section>
+                <div class="flex-container justify-content-between">
+                    <div>
+                        <p class="font-size-36 color-silver">#hobbies</p>
+                        <ul class="hobbies">
+                            <li>Fitness</li>
+                            <li>Read</li>
+                            <li>Travel</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="font-size-36 color-silver">#address</p>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.5553098766122!2d106.69889771471834!3d10.76871449232679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f7dbce91fbd%3A0x3954d44420742ac3!2sNordic%20Coder!5e0!3m2!1svi!2s!4v1645619599166!5m2!1svi!2s"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer class="back-ground-silver margin-bottom ">
+        <p><span style="color:#828282 ;">Copyright &copy; 2020 Your Name. All rights reserved.</span> </p>
+    </footer>
+
 </body>
 
 </html>

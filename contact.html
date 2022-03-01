@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <style>
+        h3 {
+            color: #828282;
+            font-size: 36px;
+        }
+
+        p i {
+            color: #828282;
+        }
+
+        .back-ground-black {
+            background-color: black;
+        }
+
+        .back-ground-black a {
+            color: white;
+        }
+
+        .margin-0 {
+            margin-left: 0%;
+        }
+        .margin-5{
+            margin-top: 3%;
+        }
+    </style>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+</head>
+
+<body>
+    <nav class="back-ground-black text-align-right padding-20">
+        <a href="contact.html" target="_blank" class="text-decoration-none">Contact</a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <form style="display: inline-block;">
+            <select name="share" id="share" class="back-ground-black boder-none color-white">
+                <option value="Share">Share</option>
+            </select>
+        </form>
+    </nav>
+
+    <main class="flex-container">
+        <nav>
+            <div class="color-black text-align-center margin-top-48 padding-10-60">
+                <img src="img/ellipse1.png" alt="project-image">
+                <p><b>My Name</b> </p>
+                <a href="mailto:myemail@gmail.com" class="color-828282">myemail@gmail.com <img src="img/group8.svg"></a>
+                <br>
+            </div>
+            <div>
+                <a href="index.html" class="boder-5-solid-left"> <img src="img/vector1.png">My Portfolio</a> <br>
+                <a href="aboutme.html" class="color-828282"><img src="img/vector2.png"> About me</a>
+            </div>
+        </nav>
+        <div>
+            <div>
+                <picture>
+                    <source media="(min-width:650px)" srcset="img/desktop.jpg" >
+                    <source media="(min-width:465px)" srcset="img/tablet.jpg">
+                    <img src="img/Contact.jpg" alt="Contact" class="margin-5">
+                </picture>
+
+                <!-- nội dung chính -->
+                <h1>Contact</h1>
+                <form>
+                    <input type="text" name="text" placeholder="Name"
+                        class="margin-0 boder-radius-30 padding-15-407-15-19 boder-none back-ground-silver color-silver margin-30">
+                    <br>
+                    <input type="email" name="email" placeholder="Email"
+                        class="margin-0 boder-radius-30 padding-15-407-15-19 boder-none back-ground-silver color-silver margin-30">
+                    <br>
+                    <textarea name="HCIH" cols="30" rows="10" placeholder="How can we help?"
+                        class="margin-0 boder-radius-30 boder-none back-ground-silver color-silver margin-30"
+                        style="padding: 10px 335px 93px 19px;"></textarea> <br>
+                    <input type="submit" value="Send"
+                        class="margin-0 back-ground-black color-white boder-radius-30 padding-10-60 boder-none margin-30">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="back-ground-silver margin-bottom">
+        <p><span style="color:#828282 ;">Copyright &copy; 2020 Your Name. All rights reserved.</span> </p>
+    </footer>
+
+</body>
+
+</html>
